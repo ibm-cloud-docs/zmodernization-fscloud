@@ -15,7 +15,7 @@ keywords:
 # Deployable architecture
 {: #deployable-architecture}
 
-![vpc_deployable_arch_overview](image/vpc-layered-with-c2svpn.png){: caption="VPC deployable architecture" caption-side="bottom"}
+![vpc_deployable_arch_overview](images/vpc-layered-with-c2svpn.png){: caption="VPC deployable architecture" caption-side="bottom"}
 
 ## FAQs
 {: #faqs}

@@ -22,7 +22,7 @@ The use of REST APIs for z/OS has matured as a key mechanism for modernizing and
 
 IBM z/OS Connect includes cloud native development support and API first mapping for creating OpenAPI 3 interfaces to z/OS applications and data. To achieve this, we have added two new components; a new container-based deployment model that is known as the IBM z/OS Connect server and a powerful new browser-based tooling that is known as the z/OS Connect Designer.
 
-![overview](image/zconnect-overview.svg){: caption="Figure 1. The z/OS Connect OpenAPI3 provider experience" caption-side="bottom"}
+![overview](images/zconnect-overview.svg){: caption="Figure 1. The z/OS Connect OpenAPI3 provider experience" caption-side="bottom"}
 
 ## Calling APIs from CICS COBOL applications
 {: #apis-cics}
@@ -33,7 +33,7 @@ To call APIs, you generate and deploy API requesters into IBM z/OS Connect. An A
 
 Figure 2 shows how the IBM z/OS Connect API requester uses the Host API to allow z/OS applications to call API endpoints.
 
-![arch](img/requester-end-to-end-export.svg){: caption="Figure 2. The z/OS Connect OpenAPI3 requester experience" caption-side="bottom"}
+![arch](images/requester-end-to-end-export.svg){: caption="Figure 2. The z/OS Connect OpenAPI3 requester experience" caption-side="bottom"}
 
 ## System requirements
 {: #system-reqs}
