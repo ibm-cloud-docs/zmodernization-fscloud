@@ -1,0 +1,43 @@
+---
+toc:
+  properties:
+    subcollection: zmodernization-fscloud
+    authors:
+        - name: Pradeep Kadiyala
+          url: https://www.linkedin.com/in/pradeepkadiyala1980/
+    audience: solution
+    content-type: white-paper
+    href: /docs/zmodernization-fscloud
+    path: zmodernization-fscloud
+    description: IBM Cloud is designed for regulatory workloads and works with an ecosystem of regulated clients and ISVs to continuously improve the compliance posture.
+    label: Build a hybrid cloud platform for mainframe-centric regulated workloads with IBM Cloud for Financial Services
+
+  entries:
+  - navgroup:
+      id: overview
+      topics:
+      - intro.md
+
+  - navgroup:
+      id: architecture
+      topics:
+        - system-context.md
+        - use-cases.md
+        - architecture.md
+        - functional-reqs.md
+        - topicgroup:
+            label: Nonfunctional requirements
+            topics:
+            - nonfunctional-reqs.md
+            - wazi-image-builder.md
+            - wazi-service.md
+            - dev-env.md
+            - devsecops.md
+            - z-connect.md
+            - bastion-host.md
+            - deployable-architecture.md
+
+  - navgroup:
+      id: help
+      topics:
+        - faqs.md
