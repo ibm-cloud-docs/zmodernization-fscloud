@@ -5,6 +5,12 @@ toc:
     authors:
         - name: Pradeep Kadiyala
           url: https://www.linkedin.com/in/pradeepkadiyala1980/
+        - name: Maha Masri
+          url: https://www.linkedin.com/in/maha-masri-8918a547/
+        - name: Amy Freeman
+          url: https://www.linkedin.com/in/amy-c-freeman/
+        - name: Setareh Mehrabanzad
+          url: https://www.linkedin.com/in/setareh-mehrabanzad-5185a1/
     audience: solution
     content-type: white-paper
     href: /docs/zmodernization-fscloud
@@ -17,12 +23,13 @@ toc:
       id: overview
       topics:
       - intro.md
+      - wazi-intro.md
+      - use-cases.md
 
   - navgroup:
       id: reference
       topics:
         - system-context.md
-        - use-cases.md
         - architecture.md
         - functional-reqs.md
         - topicgroup:
