@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2023
+  years: 2024
 lastupdated: "2024-03-05"
 
 subcollection: zmodernization-fscloud
@@ -53,6 +53,7 @@ An insurance client is looking to modernize the applications by refactoring and 
 IBM Cloud provides deployable architectures with a set of [DevOps Toolchains](https://cloud.ibm.com/docs/ContinuousDelivery?topic=ContinuousDelivery-getting-started&interface=ui) and pipelines. The deployable architecture pipelines use Continuous Integration, Continuous Delivery, Continuous Compliance to meet the industry standards. DevSecOps also leverages popular scanning tools such as SonarQube, GoSec, OWASP Zap (dynamic scan), any unit test framework, and GPG signing. It can also be used with more tools such as external Git providers and artifact stores. DevSecOps supports hybrid deployments, by using private pipeline workers.
 
 ## 4. Data Security: Highest Level of Security Encryption with FIPS 140 – Level 4 -
+{: #data-security}
 
 Most regulated industries data used for development and test resides on On-Prem databases and storage. The access to data from the dev and test environment in IBM Cloud should be secured with data security at-rest and in-transit using highest level security services.
 

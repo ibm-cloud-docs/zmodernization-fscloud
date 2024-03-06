@@ -1,7 +1,7 @@
 ---
 
 copyright:
-years: 2023
+  years: 2023
 lastupdated: "2024-03-05"
 
 subcollection: zmodernization-fscloud
@@ -19,3 +19,4 @@ One solution that is making waves in this landscape is “Wazi as a Service.” 
 {: shortdesc}
 
 ![WaziIntro-Image](images/wazi-intro.png){: caption="Figure 1. WaaS with z/OS on IBM Cloud" caption-side="bottom"}
+
