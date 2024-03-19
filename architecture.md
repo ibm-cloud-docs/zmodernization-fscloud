@@ -15,8 +15,6 @@ keywords:
 # System architecture overview
 {: #architecture}
 
-![System Architecture Overview Diagram](images/zMain-ArchOverview.png){: caption="Figure 1. System architecture overview" caption-side="bottom"}
-
 ## Components
 {: #components}
 
@@ -50,10 +48,12 @@ The following major components are included in the architecture.
 ## Workflow
 {: #workflow}
 
+![System Architecture Overview Diagram](images/ArchOverview-v4.0.png){: caption="Figure 1. System architecture overview" caption-side="bottom"}
+
 ### Step 0:  Deploying FS Cloud framework by using a deployable architecture
 {: #step0}
 
-Using guided user interface and automation, you can use a deployable architecture to setup the environment for mainframe application in a given region. The deployable architecture provides a layout with Management VPC and Workload VPC. The management VPC has resources like Bastion Host specific to managing the VSIs and other resources in workload VPC and has restricted access to users that are trusted to some degree. The workload VPC has the resources like Wazi as a Service VSI, and other x86 VSI instances to accommodate optional Wazi Image Builder as per client requirements. The workload VPC also provides optional ROKS (Red Hat OpenShift) clusters to run IBM Z Mod Stack tools to modernize the applications by using developer tools. The Workload VPC also has VPE (Virtual Private Endpoint) Gateways to access the {{site.data.keyword.cloud_notm}} services through private IP addresses avoiding use of public network access for security. A configurable Site to Site VPN gateway is created to allow on-premises network traffic that is connected to {{site.data.keyword.cloud_notm}} securely. A transit gateway is created to connect Management VPC to Workload VPC. All the Network ACL defined for both Workload and Management VPC are by default that is configured to not allow public network connectivity making t an isolated network like an air-gap environment. Security and Compliance can be integrated to Cloud Framework to monitor, audit, and alert with pre-defined and customizable industry compliance controls.
+Using guided user interface and automation, you can use a deployable architecture to setup the environment for mainframe application in a given region. The deployable architecture provides a layout with Edge VPC and Workload VPC. The Edge VPC has resources like Private Worker Nodes specific to accessing the VSIs and other resources in workload VPC and has restricted access to users that are trusted to some degree. The workload VPC has the resources like Wazi as a Service VSI, and other x86 VSI instances to accommodate optional Wazi Image Builder as per client requirements. The Workload VPC also has VPE (Virtual Private Endpoint) Gateways to access the {{site.data.keyword.cloud_notm}} services through private IP addresses avoiding use of public network access for security. A configurable Site to Site VPN gateway is created to allow on-premises network traffic that is connected to {{site.data.keyword.cloud_notm}} securely. A transit gateway is created to connect Management VPC to Workload VPC. All the Network ACL defined for both Workload and Management VPC are by default that is configured to not allow public network connectivity making it an isolated network like an air-gap environment. Security and Compliance can be integrated to Cloud Framework to monitor, audit, and alert with pre-defined and customizable industry compliance controls.
 
 ### Step 1: Wazi Image Builder extracts the data volumes to build a custom image.
 {: #step1}
@@ -62,26 +62,16 @@ Wazi Image Builder can be installed on an x86_64 Linux® system hosted either in
 
 1.1	- Fetch the z/OS System Context with data volumes
 1.2	- Store all the data volumes in Cloud Object Storage
-1.3	- WIB uses deployment scripts that use a terraform to build the custom image and deploy to Wazi as a Service instance
+1.3	- WIB uses deployment scripts that use a terraform to build the custom image and deploy to IBM Cloud VPC Block Storage which is attached to Wazi as a Service instance
 
 ### Step 2: Developer workspace is enabled for secure DevSecOps
 {: #step2}
 
-Developer Workspace provides Visual Studio IDE to enable the developers to remotely use the service and create workspace with on-demand basis. Developer workspace is deployed in the ROKS cluster by installing the operator and making minor configuration changes per the requirements. Developer Workspace integrates with Git repositories for source controls and continuous integrations and deployments. The CI/CD pipeline is used which uses bastion host to build and deploy the code on to Wazi VSI instance in a secure setup. Below steps describe the CI/CD deployment of application development, build, and deployments.
+Developer integrates with Git repositories for source controls and continuous integrations and deployments. The CI/CD pipeline uses private worker nodes on Kubernetes cluster to build and deploy the code on to Wazi VSI instance in a secure setup. Below steps describe the CI/CD deployment of application development, build, and deployments.
 
 ### Step 3: Deploy with CI/CD pipeline
 {: #step3}
 
-3.1	– A developer commits their code on Developer Workspace VS IDE
-3.2	– A CI/CD deployment with guided setup enables you to trigger the build and deployment of an application on to Wazi instance that uses Bastion Host
-
-### Step 4: You can extend and expose the Mainframe application by using z/OS Connect APIs
-{: #step4}
-
-Developers can extend the functions of a mainframe application to external services by creating APIs by using z/OS Connect module. The z/OS Connect module can be containerized in Red Hat OpenShift Cluster or can be used within the Wazi VSI instance. Here we show the containerized version. An OpenAPI application is developed by using the developer workspace and integrated with a mainframe application running in Wazi instance that uses z/OS Connect. The will enhance the applications to modularize without disrupting the functions of the core applications and extending to external enterprise services.
-
-### Step 5: Testing the functions
-{: #step5}
-
-Testers can test the functions of the mainframe application either through exposed APIs or on the Wazi instance itself.
+3.1	– A developer commits their code VS IDE
+3.2	– A CI/CD deployment with guided setup enables you to trigger the build and deployment of an application on to Wazi instance that uses private worker nodes
 
