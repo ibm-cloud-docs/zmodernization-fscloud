@@ -24,6 +24,7 @@ toc:
       topics:
       - intro.md
       - wazi-intro.md
+
   - navgroup:
       id: learn
       topics:
@@ -32,6 +33,7 @@ toc:
       - use-cases.md
       - service-view.md
       - architecture.md
+
   - navgroup:
       id: reference
       topics:
