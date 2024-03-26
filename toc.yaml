@@ -13,6 +13,8 @@ toc:
           url: https://www.linkedin.com/in/setareh-mehrabanzad-5185a1/
     audience: solution
     content-type: white-paper
+    category: solution_docs
+    deployable: false
     href: /docs/zmodernization-fscloud
     path: zmodernization-fscloud
     description: IBM Cloud is designed for regulatory workloads and works with an ecosystem of regulated clients and ISVs to continuously improve the compliance posture.
@@ -26,7 +28,7 @@ toc:
       - wazi-intro.md
 
   - navgroup:
-      id: architecture
+      id: how-to
       topics:
       - business-challenge.md
       - system-context.md
