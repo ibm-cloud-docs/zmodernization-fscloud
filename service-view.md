@@ -12,8 +12,8 @@ keywords:
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Component Model
-{: #component-model}
+# Service View
+{: #service-view}
 
 The following major components are included in the architecture.
 

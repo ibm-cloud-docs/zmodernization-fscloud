@@ -24,22 +24,23 @@ toc:
       topics:
       - intro.md
       - wazi-intro.md
-      - system-context.md
 
   - navgroup:
-      id: requirement
+      id: architecture
       topics:
-        - use-cases.md
         - topicgroup:
-            label: Nonfunctional requirements
+            label: Architecture Overview
             topics:
             - nonfunctional-reqs.md
 
   - navgroup:
-      id: Architecture
+      id: architecture
       topics:
+        - business-challenge.md
+        - use-cases.md
+        - system-context.md
+        - service-view.md
         - architecture.md
-        - componentmodel.md
 
   - navgroup:
       id: help
