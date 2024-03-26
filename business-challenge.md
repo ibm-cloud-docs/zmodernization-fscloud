@@ -1,7 +1,7 @@
 ---
 
 copyright:
-years: 2024
+  years: 2024
 lastupdated: "2024-03-05"
 
 subcollection: zmodernization-fscloud
@@ -13,6 +13,7 @@ keywords:
 {{site.data.keyword.attribute-definition-list}}
 
 # Business Challenge
+{: #business-challenge}
 
 Many organizations face significant challenges when it comes to integrating their core systems, including Mainframe applications, with modern technologies. This integration is crucial for modernizing core enterprise applications on hybrid cloud platforms. Shockingly, a staggering 33% of developers lack the necessary skills or resources, hindering their productivity in delivering products and services. Moreover, 36% of developers struggle with the collaboration between development and IT Operations, leading to inefficiencies in the development pipeline. To compound these issues, repeated surveys highlight “testing” as the primary area causing delays in project timelines. Companies are taking steps to standardize development tools and approaches across their platforms to overcome these challenges and drive transformation in their business processes.
 {: shortdesc}

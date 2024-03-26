@@ -1,7 +1,7 @@
 ---
 
 copyright:
-years: 2023
+  years: 2023
 lastupdated: "2024-03-25"
 
 subcollection: zmodernization-fscloud
@@ -17,10 +17,11 @@ keywords:
 
 The following major components are included in the architecture.
 
-![component-model](images/HybridCloudComponentModel.png)
+![component-model](images/HybridCloudComponentModel.png){: caption="Figure 1. Service View" caption-side="bottom"}
 
 
-### Mainframe Resources
+## Mainframe Resources
+{: #mainframe-resources}
 
 1. On-premises IBM zSystems – should be collocated near the {{site.data.keyword.cloud_notm}} data centers. zSystems applications like CICS, Db2, WebSphere MQ, and other apps run on the network where the firewalls and site-to-site VPN to {{site.data.keyword.cloud_notm}} exists. Application modernization runs with a z-Connect to expose the functions of legacy applications through API Gateway like API Connect. A custom image is taken from the on-premises zSystem for the development or test environment. All the data is encrypted during the in-transit and at-rest.
 2. Wazi Image Builder (WIB) – is a tool that takes the data volumes from on-premises zSystems and creates a custom image that can be used to initiate a Wazi VSI instance on {{site.data.keyword.cloud_notm}}. WIB resides in {{site.data.keyword.cloud_notm}} and collects all the selected raw data volumes from the on-premises zSystems. WIB uses Cloud Object Storage to store the data volumes and the custom image. The custom image is created by system admin of the zSystems using WIB. WIB runs on an Intel x86 VSI instance on {{site.data.keyword.cloud_notm}}.
@@ -36,7 +37,9 @@ The following major components are included in the architecture.
     10. Your CICS COBOL applications can call APIs that conform to the OpenAPI 3.0 specification through IBM z/OS Connect.
 
 
-### IBM Cloud Services
+## IBM Cloud Services
+{: #cloud-services}
+
 1. Wazi-as-a-Service (WaaS) - Accelerate cloud native development and testing of z/OS applications with z/OS Virtual Server in {{site.data.keyword.cloud_notm}} Virtual Private Cloud (VPC). It's your own protected space in the {{site.data.keyword.cloud_notm}} with the security of a private cloud and the agility of a public cloud. IBM Wazi aaS also provides experimental capabilities to enable customers to get started with exploring {{site.data.keyword.cloud_notm}}’s Continuous Delivery offering through Integration templates based on DevSecOps practices. The service offers a unified user experience for z/OS and cloud native applications in the {{site.data.keyword.cloud_notm}} to create and use toolchains, with security and auditability at its core.
 2. Development workspace - IBM Wazi Developer for Workspaces provides the z/OS application development capabilities in the OpenShift Container Platform environment. After the cluster administrator of your organization completes the installation, each z/OS application developer on the team can create a development workspace. Then, the z/OS application developer can edit, build, and debug mainframe applications from any machine without any local environment configurations.
 
@@ -48,7 +51,9 @@ The following major components are included in the architecture.
     5. Ongoing governance of the framework documentation that considers new and changing regulations, as well as bank and public cloud requirements.
 4. Bastion Host – A Jump Host or a Bastion host is used to allow access to {{site.data.keyword.cloud_notm}} ToolChain for running the DevOps through automation scripts for the build and deployment of applications on Wazi VSI instance. The Bastion Host should allow network ACL from ToolChains TCP/IP to run the scripts. Because the {{site.data.keyword.cloud_notm}} ToolChain service is a public-facing service a Bastion Host is required to deploy the applications. The Bastion Host is isolated by having its own subnet ACLs and Security Groups.
 
-### IBM Cloud Operations
+## IBM Cloud Operations
+{: #cloud-operations}
+
 1. Deployable Architectures - Creating secure, compliant, and scalable application infrastructure can be difficult to set up and costly to maintain. Instead of figuring out how to assemble a compliant infrastructure architecture on your own, you can review the deployable architectures. A deployable architecture is cloud automation for deploying a common architectural pattern that combines one or more cloud resources, and it is designed for easier deployment, scalability, and modularity. Each deployable architecture is built and maintained by IBM Cloud experts and follows IBM Cloud best practices. They remove the guesswork from the architecture design process and reduce the time that it takes to deploy complex reference patterns that are secure by default for regulated industries like financial services.
 2. Delivery pipeline - IBM Cloud Continuous Delivery provides toolchains, pipelines, and tool integrations. Use toolchains to gain an integrated set of tools to build, deploy and manage your apps. You can create toolchains that include IBM services, open source tools or third-party tools that make development and operations repeatable and easier to manage.
 3. ADDI - IBM Application Discovery and Delivery Intelligence (ADDI) is an analysis tool that helps visualize applications, data and jobs on z/OS.
