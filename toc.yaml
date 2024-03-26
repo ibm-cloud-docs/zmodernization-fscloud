@@ -24,9 +24,9 @@ toc:
       topics:
       - intro.md
       - wazi-intro.md
-      
+
   - navgroup:
-      id: architecture
+      id: reference
       topics:
         - business-challenge.md
         - use-cases.md
