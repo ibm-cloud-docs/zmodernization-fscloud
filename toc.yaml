@@ -28,13 +28,13 @@ toc:
   - navgroup:
       id: reference
       topics:
-        - business-challenge.md
-        - use-cases.md
-        - system-context.md
-        - service-view.md
-        - architecture.md
+      - business-challenge.md
+      - use-cases.md
+      - system-context.md
+      - service-view.md
+      - architecture.md
 
   - navgroup:
       id: help
       topics:
-        - faqs.md
+      - faqs.md
