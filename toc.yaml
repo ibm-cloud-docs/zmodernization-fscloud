@@ -28,7 +28,7 @@ toc:
       - wazi-intro.md
 
   - navgroup:
-      id: how-to
+      id: howto
       topics:
       - business-challenge.md
       - system-context.md
