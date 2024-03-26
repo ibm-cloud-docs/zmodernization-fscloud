@@ -24,25 +24,22 @@ toc:
       topics:
       - intro.md
       - wazi-intro.md
-      - use-cases.md
+      - system-context.md
 
   - navgroup:
-      id: reference
+      id: requirement
       topics:
-        - system-context.md
-        - architecture.md
-        - functional-reqs.md
+        - use-cases.md
         - topicgroup:
             label: Nonfunctional requirements
             topics:
             - nonfunctional-reqs.md
-            - wazi-image-builder.md
-            - wazi-service.md
-            - dev-env.md
-            - devsecops.md
-            - z-connect.md
-            - bastion-host.md
-            - deployable-architecture.md
+
+  - navgroup:
+      id: Architecture
+      topics:
+        - architecture.md
+        - componentmodel.md
 
   - navgroup:
       id: help
