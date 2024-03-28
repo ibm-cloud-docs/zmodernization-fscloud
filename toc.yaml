@@ -29,11 +29,17 @@ toc:
   - navgroup:
       id: howto
       topics:
-      - business-challenge.md
-      - system-context.md
-      - use-cases.md
-      - service-view.md
-      - architecture.md
+        - topicgroup:
+            label: Scope
+            topics:
+            - business-challenge.md
+            - system-context.md
+        - topicgroup:
+            label: Architecture
+            topics:
+            - use-cases.md
+            - service-view.md
+            - architecture.md
 
   - navgroup:
       id: reference
