@@ -14,7 +14,6 @@ toc:
     audience: solution
     content-type: white-paper
     category: solution_docs
-    deployable: false
     href: /docs/zmodernization-fscloud
     path: zmodernization-fscloud
     description: IBM Cloud is designed for regulatory workloads and works with an ecosystem of regulated clients and ISVs to continuously improve the compliance posture.
@@ -39,18 +38,18 @@ toc:
   - navgroup:
       id: reference
       topics:
-        - topicgroup:
-            label: Patterns
-            topics:
-            - link:
-              label: "DevOps platform for mainframe"
-              href: https://www.ibm.com/downloads/cas/Y3JDDJOD
-            - link:
-              label: "API Strategy"
-              href: https://www.ibm.com/downloads/cas/EX4O1LJY
-            - link:
-              label: "Monetize Mainframe data"
-              href: https://www.ibm.com/downloads/cas/V3G9VXWO
-            - link:
-              label: "Infuse AI into IBM Z"
-              href: https://www.ibm.com/downloads/cas/P2ZKMWJL
+        - link:
+            label: "DevOps platform for mainframe"
+            href: https://www.ibm.com/downloads/cas/Y3JDDJOD
+        - link:
+            label: "API Strategy"
+            href: https://www.ibm.com/downloads/cas/EX4O1LJY
+        - link:
+            label: "Monetize Mainframe data"
+            href: https://www.ibm.com/downloads/cas/V3G9VXWO
+        - link:
+            label: "Infuse AI into IBM Z"
+            href: https://www.ibm.com/downloads/cas/P2ZKMWJL
+        - link:
+            label: "IBM Cloud Framework for Financial Service "
+            href: https://cloud.ibm.com/docs/framework-financial-services?topic=framework-financial-services-about
