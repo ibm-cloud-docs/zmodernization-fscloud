@@ -32,7 +32,9 @@ Using guided user interface and automation, you can use a deployable architectur
 Wazi Image Builder can be installed on an x86_64 Linux® system hosted either in a cloud or an on-premises physical or virtual machine. The following steps show the functions of WIB:
 
 1.1	- Fetch the z/OS System Context with data volumes
+
 1.2	- Store all the data volumes in Cloud Object Storage
+
 1.3	- WIB uses deployment scripts that use a terraform to build the custom image and deploy to IBM Cloud VPC Block Storage which is attached to Wazi as a Service instance
 
 ### Step 2: Developer workspace is enabled for secure DevSecOps
@@ -44,5 +46,6 @@ Developer integrates with Git repositories for source controls and continuous in
 {: #step3}
 
 3.1	– A developer commits their code VS IDE
+
 3.2	– A CI/CD deployment with guided setup enables you to trigger the build and deployment of an application on to Wazi instance that uses private worker nodes
 
