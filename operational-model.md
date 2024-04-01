@@ -12,8 +12,8 @@ keywords:
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Nonfunctional requirements
-{: #nonfunctional-requirements}
+# Operational Model
+{: #operational-models}
 
 In this section we define the logical operational model and physical operational model.
 
@@ -81,5 +81,5 @@ The logical locations are mapped to security zones in the logical operational vi
 ## Logical operational model
 {: #logical-operation}
 
-![Logical_Operational_Model](img/LogicalOperationalModel.png){: caption="Figure 2. Logical operation model" caption-side="bottom"}
+![Logical_Operational_Model](images/LogicalOperationalModel.png){: caption="Figure 2. Logical operation model" caption-side="bottom"}
 

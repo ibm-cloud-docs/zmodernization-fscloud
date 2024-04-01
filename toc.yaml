@@ -40,6 +40,7 @@ toc:
             - use-cases.md
             - service-view.md
             - architecture.md
+            - operational-model.md
 
   - navgroup:
       id: reference
