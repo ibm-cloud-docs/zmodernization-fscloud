@@ -15,7 +15,7 @@ keywords:
 # Wazi as a Service (WaaS)
 {: #waas}
 
-IBM® Wazi as a Service is a solution that enables a cloud native development and test experience for z/OS in IBM Cloud Virtual Private Cloud (VPC). With Wazi as a Service, application developers can develop and test z/OS application components in a virtual infrastructure "as a Service" environment running on IBM Z architecture on IBM Public Cloud. It gives you cloud security, with the ability to scale dynamically by providing on-demand access to z/OS resources where and when you need them, integrated with public cloud services and configured for integration with your existing DevOps tools.
+IBM® Wazi as a Service is a solution that enables a cloud native development and test experience for z/OS in IBM Cloud Virtual Private Cloud (VPC). With Wazi as a Service, application developers can develop and test z/OS application components in a virtual infrastructure "as a Service" environment running on IBM Z architecture on IBM Public Cloud. It gives you cloud security, with the ability to scale dynamically by providing on-demand access to z/OS resources where and when you need them, integrated with public cloud services and configured for integration with your existing DevSecOps tools.
 
 ## Key capabilities
 {: #key-capabilities}

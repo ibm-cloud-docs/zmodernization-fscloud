@@ -80,7 +80,7 @@ An OCI-compliant container platform of your choice, for example, Red Hat OpenShi
 * IBM z/OS Connect V3.0.55 or later.
 * IBM 64-bit SDK for z/OS.
 
-**DevOps**
+**DevSecOps**
 
 * Supported Gradle release depends on release of Gradle plug-in in use for API provider and API requester.
 * Java™ Technology Edition V8.0.0 or later service refresh and fix pack level.

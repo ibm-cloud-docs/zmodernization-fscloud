@@ -46,7 +46,7 @@ toc:
       id: reference
       topics:
         - link:
-            label: "DevOps platform for mainframe"
+            label: "DevSecOps platform for mainframe"
             href: https://www.ibm.com/downloads/cas/Y3JDDJOD
         - link:
             label: "API Strategy"

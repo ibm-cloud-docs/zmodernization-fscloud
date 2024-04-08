@@ -45,7 +45,7 @@ Testers will run their test cases on the Wazi instance where the developers have
 ## Step 4: Run DevSecOps
 {: #step-4}
 
-DevSecOps pipelines in IBM Cloud allows you to perform test/build/deploy. Business may run their DevOps based on the use cases. Existing source control management like Endevor can be used and deployed on dev/test Wazi environment on IBM Cloud through secure networking. Refactoring and Enhancing of the mainframe applications can be performed using the IBM ToolChain pipeline with Continuous Integration, Continuous Deployment and Continuous Compliance.
+DevSecOps pipelines in IBM Cloud allows you to perform test/build/deploy. Business may run their DevSecOps based on the use cases. Existing source control management like Endevor can be used and deployed on dev/test Wazi environment on IBM Cloud through secure networking. Refactoring and Enhancing of the mainframe applications can be performed using the IBM ToolChain pipeline with Continuous Integration, Continuous Deployment and Continuous Compliance.
 
 ## Step 5: Deploy
 {: #step-5}

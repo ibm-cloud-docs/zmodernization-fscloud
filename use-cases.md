@@ -45,12 +45,12 @@ The [IBM Cloud Framework for Financial Services](https://cloud.ibm.com/docs/fram
 
 To further facilitate compliance, [reference architectures](https://cloud.ibm.com/docs?tab=solutions&contentType=reference-architecture) are provided to assist in the implementation of control requirements. These architectures can be deployed as infrastructure as code, streamlining the deployment and configuration process. IBM also offers a range of tools and services, such as the IBM Cloud Security and Compliance Center, to empower stakeholders to monitor compliance, address issues, and generate evidence of compliance efficiently.
 
-## 3. Secure Development and Operations DevSecOps: Accelerate DevOps practices with flexible, consumption-based pricing –
-{: #devops-usecase}
+## 3. Secure Development and Operations DevSecOps: Accelerate DevSecOps practices with flexible, consumption-based pricing –
+{: #devsecops-usecase}
 
 An insurance client is looking to modernize the applications by refactoring and enhancing the core system to be integrated with new cloud native applications. A process is required to tie into existing source code management like Endevor/RACAF while the developers refactor and move to Git.
 
-IBM Cloud provides deployable architectures with a set of [DevOps Toolchains](https://cloud.ibm.com/docs/ContinuousDelivery?topic=ContinuousDelivery-getting-started&interface=ui) and pipelines. The deployable architecture pipelines use Continuous Integration, Continuous Delivery, Continuous Compliance to meet the industry standards. DevSecOps also leverages popular scanning tools such as SonarQube, GoSec, OWASP Zap (dynamic scan), any unit test framework, and GPG signing. It can also be used with more tools such as external Git providers and artifact stores. DevSecOps supports hybrid deployments, by using private pipeline workers.
+IBM Cloud provides deployable architectures with a set of [DevSecOps Toolchains](https://cloud.ibm.com/docs/ContinuousDelivery?topic=ContinuousDelivery-getting-started&interface=ui) and pipelines. The deployable architecture pipelines use Continuous Integration, Continuous Delivery, Continuous Compliance to meet the industry standards. DevSecOps also leverages popular scanning tools such as SonarQube, GoSec, OWASP Zap (dynamic scan), any unit test framework, and GPG signing. It can also be used with more tools such as external Git providers and artifact stores. DevSecOps supports hybrid deployments, by using private pipeline workers.
 
 ## 4. Data Security: Highest Level of Security Encryption with FIPS 140 – Level 4 -
 {: #data-security}
