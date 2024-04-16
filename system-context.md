@@ -35,7 +35,7 @@ To optimize the cost with consumption based pricing you can run your development
 ## Step 2: Refactor and Enhance
 {: #step-2}
 
-Developer use the Development and Test environment setup using Wazi aaS to perform their development tasks. A developer may preform refactoring of the mainframe applications, enhancing the mainframe application by converting from COBOL to Java using [watsonx code assistant for Z WCA4Z](https://www.ibm.com/watsonx).
+Developer use the Development and Test environment setup using Wazi aaS to perform their development tasks. A developer may preform refactoring of the mainframe applications, enhancing the mainframe application by converting from COBOL to Java using [watsonx code assistant for Z WCA4Z](https://www.ibm.com/products/watsonx-code-assistant-z).
 
 ## Step 3: Test
 {: #step-3}
