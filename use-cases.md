@@ -55,7 +55,7 @@ IBM Cloud provides deployable architectures with a set of [DevSecOps Toolchains]
 ## 4. Data Security: Highest Level of Security Encryption with FIPS 140 – Level 4 -
 {: #data-security}
 
-Most regulated industries data used for development and test resides on On-Prem databases and storage. The access to data from the dev and test environment in IBM Cloud should be secured with data security at-rest and in-transit using highest level security services.
+Most regulated industries data used for development and test resides on On-Prem databases and storage. The access to data from the dev and test environment in IBM Cloud should be secured with data security at-rest and in-transit by using the highest level security services.
 
 [IBM Cloud Hyper Protect Crypto Services](https://www.ibm.com/products/hyper-protect-crypto) is an as-a-service (aaS) key management and encryption solution, which gives you full control over your encryption keys for data protection.
 
