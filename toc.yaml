@@ -17,7 +17,7 @@ toc:
     href: /docs/zmodernization-fscloud
     path: zmodernization-fscloud
     description: IBM Cloud is designed for regulatory workloads and works with an ecosystem of regulated clients and ISVs to continuously improve the compliance posture.
-    label: Building a hybrid cloud platform for mainframe-centric regulated workloads with IBM Cloud for Financial Services
+    label: Modernize Mainframes on IBM Cloud for regulated workloads
 
   entries:
   - navgroup:
