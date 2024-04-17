@@ -35,7 +35,7 @@ Wazi Image Builder installed on an x86_64 Linux® system can be hosted either in
 
 1.2	- Store all the data volumes in Cloud Object Storage
 
-1.3	- 1.3 - WIB uses deployment scripts that use terraform to build the custom image and deploy to IBM Cloud VPC Block Storage, which is attached to Wazi as a Service instance
+1.3	- WIB uses deployment scripts that use terraform to build the custom image and deploy to IBM Cloud VPC Block Storage, which is attached to Wazi as a Service instance
 
 ### Step 2: Developer workspace is enabled for secure DevSecOps
 {: #step2}
