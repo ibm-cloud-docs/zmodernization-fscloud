@@ -15,23 +15,22 @@ keywords:
 # Industry Use Cases
 {: #use-cases}
 
-Client use cases are being derived and organized based on industries. The use cases will be described as requirements that would enable clients to derive solutions and make decisions.
+Client use cases are derived and organized by industry. Each use case will describe requirements that would allow clients to make decisions and enable solutions for the use case.
 {: shortdesc}
 
 ## 1. IBM Wazi aaS: Cloud Native development and testing on IBM Cloud for mainframe applications –
 {: #dev-test-usecase}
 
-A healthcare client runs mainframe application on IBM Z Systems at their Data Center. Development and Test environments share the MIPS with their staging environment running in the Z System. The client is looking to reduce the MIPS to about 30% so that the cost and maintenance to develop and test these applications will be reduced and as well expedite the business delivery at speed.
+A healthcare client runs a mainframe application on IBM Z Systems at their Data Center. Development and Test environments share resources with their staging environment running in the Z System. The client is looking to reduce the cost and maintenance to develop and test these applications as well expedite the business delivery at speed.
 
 z/OS Infrastructure as a Service running on Z Hardware for development and early testing also known as [Wazi as a Service (WaaS)](https://www.ibm.com/cloud/wazi-as-a-service) is a unique service that provides.
 
-- Cloud service with z/OS running on Z LinuxOne hardware which is 8 -15x times faster performance than any z/OS running in emulated x86 hardware.
+- Cloud service with z/OS running on Z LinuxOne hardware, where the CPs are not emulated, run with 8-15x times faster performance than other z/OS running in emulated x86 hardware.
 - On-demand access to a z/OS environment in less than 5 minutes.
-- z/OS system that includes the latest and greatest software.
+- z/OS system with an IBM-provided dev and test stock image that includes the latest and greatest software.
+- Enabling easy deployment of a z/OS system with a custom image based on an on-premises system with Wazi Image Builder.
 - Automated testing, with security earlier in the development lifecycle.
-- Enabling easy deployment of a z/OS system with Wazi Image Builder using standard or custom images.
 - Enabling horizontal and vertical scaling on demand based on business needs and pay only for what you use with infrastructure available as a service in a flexible consumption model.
-- Deploying an IBM-provided dev and test stock images on the z/OS Virtual Server, or bring a custom image for applications and related components to deploy to the z/OS Virtual Server in VPC.
 
 ## 2. Industry Specific Regulations: Modernize with IBM Cloud Framework for Financial Services for regulated industries -
 {: #fs-cloud}
