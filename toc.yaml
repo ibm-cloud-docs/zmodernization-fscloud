@@ -3,14 +3,16 @@ toc:
   properties:
     subcollection: zmodernization-fscloud
     authors:
-        - name: Pradeep Kadiyala
+        - name: Pradeep Kadiyala (Sr. Solutions Architect - Financial Service Cloud)
           url: https://www.linkedin.com/in/pradeepkadiyala1980/
-        - name: Maha Masri
+        - name: Maha Masri (Product Manager DevOps - IBM Z Hybrid Cloud)
           url: https://www.linkedin.com/in/maha-masri-8918a547/
-        - name: Amy Freeman
+        - name: Amy Freeman (Principal Technical Specialits - IBM Cloud)
           url: https://www.linkedin.com/in/amy-c-freeman/
-        - name: Setareh Mehrabanzad
+        - name: Setareh Mehrabanzad (Executive Architect - Hybrid Cloud Solutions)
           url: https://www.linkedin.com/in/setareh-mehrabanzad-5185a1/
+        - name: Daisy Aye (Technical Program Manager - Financial Service Cloud)
+          url: https://www.linkedin.com/in/daisyaye/
     audience: solution
     content-type: white-paper
     category: solution_docs
