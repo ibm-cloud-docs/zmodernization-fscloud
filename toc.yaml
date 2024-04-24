@@ -1,0 +1,68 @@
+---
+toc:
+  properties:
+    subcollection: zmodernization-fscloud
+    authors:
+        - name: Pradeep Kadiyala (Sr. Solutions Architect - Financial Service Cloud)
+          url: https://www.linkedin.com/in/pradeepkadiyala1980/
+        - name: Maha Masri (Product Manager DevOps - IBM Z Hybrid Cloud)
+          url: https://www.linkedin.com/in/maha-masri-8918a547/
+        - name: Amy Freeman (Principal Technical Specialits - IBM Cloud)
+          url: https://www.linkedin.com/in/amy-c-freeman/
+        - name: Setareh Mehrabanzad (Executive Architect - Hybrid Cloud Solutions)
+          url: https://www.linkedin.com/in/setareh-mehrabanzad-5185a1/
+        - name: Daisy Aye (Technical Program Manager - Financial Service Cloud)
+          url: https://www.linkedin.com/in/daisyaye/
+    audience: solution
+    content-type: white-paper
+    category: solution_docs
+    href: /docs/zmodernization-fscloud
+    path: zmodernization-fscloud
+    description: IBM Cloud is designed for regulatory workloads and works with an ecosystem of regulated clients and ISVs to continuously improve the compliance posture.
+    label: Modernize Mainframes on IBM Cloud for regulated workloads
+
+  entries:
+  - navgroup:
+      id: overview
+      topics:
+      - intro.md
+      - wazi-intro.md
+
+  - navgroup:
+      id: howto
+      topics:
+        - topicgroup:
+            label: Demo
+            topics:
+              - demo.md
+        - topicgroup:
+            label: Scope
+            topics:
+            - business-challenge.md
+            - system-context.md
+        - topicgroup:
+            label: Architecture
+            topics:
+            - use-cases.md
+            - service-view.md
+            - architecture.md
+            - operational-model.md
+
+  - navgroup:
+      id: reference
+      topics:
+        - link:
+            label: "DevSecOps platform for mainframe"
+            href: https://www.ibm.com/downloads/cas/Y3JDDJOD
+        - link:
+            label: "API Strategy"
+            href: https://www.ibm.com/downloads/cas/EX4O1LJY
+        - link:
+            label: "Monetize Mainframe data"
+            href: https://www.ibm.com/downloads/cas/V3G9VXWO
+        - link:
+            label: "Infuse AI into IBM Z"
+            href: https://www.ibm.com/downloads/cas/P2ZKMWJL
+        - link:
+            label: "IBM Cloud Framework for Financial Service "
+            href: https://cloud.ibm.com/docs/framework-financial-services?topic=framework-financial-services-about
